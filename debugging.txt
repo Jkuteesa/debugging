@@ -1,0 +1,95 @@
+WHAT IS A BUG?
+A bug is an error in code that prevents a program from achieving desired output. 
+A bug is a glitch in software that prevents a program from achieving intended output.
+
+WHAT IS DEBUGGING?
+debugging is the process of finding and solving errors in code.
+
+TYPES OF BUGS
+Logic/ logical errors:
+these occur when the steps taken to perform the task correctly are not well done
+e.g infinite loop
+
+Syntax errors:
+these occur when you dont follow the syntactical rules eg wrong spelling,mistyping
+
+design bugs:
+is a bug that is carried from designers to the actual implementation of code
+is a bug that is caused by poor and/or inadequate design decisions. eg bad user interface, wrong datatypes
+
+Runtime errors:
+these are errors that cant be noticed until the code has been run eg dividing by a null value, dividing a number by zero, 
+adding a string to an integer
+
+WHY DEBUG? 
+To save resources ie time and money
+To solve errors in code
+helps in improving prductivity and effeciency of developers to work
+
+HOW DO WE DEBUG
+Prior
+Planning
+Prevents
+Poor 
+Peforming
+
+DEBUGGING PRINCIPLES
+-Bugs caught early,right after youve made them are pretty easy to fix because the details are
+fresh in your mind and you know exactly were to look.
+-Once bugs escape they become very hard to find.since you most likely dont have
+the details of code in mind.
+
+THE DEBUGGING CYCLE
+1. Coding.
+2. Testing(checkin the functionabilty /output).
+3. If the code works as desired then continue developing.
+4. If the code isnt working then go on to debug.
+5. Repeat the cycle.
+
+DIFFERENCE BETWEEN DEBUGGING AND Testing
+Debugging is what can I do to fix my code while testing is what I can do 
+to break my code.(trying to find out what would go wrong with my code)
+
+STEPS OF DEBUGGING
+1. Plan your attack.
+2. Backup your files(interchangable)using github to keep track of changes in software.
+3. Isolate the block of code that could have the error ie commenting it.
+4. Finding the actual line(s) of code that has the error/bugs.
+5. Fix the error dont patch it.
+6. Test the fix you have just done.
+7. Look for similar bugs.
+
+OTHER STEPS AND STRATEGIES
+- Reproducibility;
+the first step of being able to fix a bug is being able to reproduce it.
+you need to be able to understand the cause and effect before you change the code
+- Reduction;
+finding the smallest or simplest test that exhibits the bug.
+ie reduce the search space because bugs are not random the come from somewhere in the code.
+- Deduction;
+understanding what the program is doing.
+-Pair programming;
+someone else will be able to see the wrong assumptions/mistakes you've made.
+explaing helps you to understand what your trying to achive with your code.
+- Liveraganging experience from others;
+seeking solutions from more experienced programmers.
+
+PREVENTIVE MEASURES TO AVOID BUGS
+1. Write clean(dont repeat yourself) and easy to read code(indenting).
+2. Commenting(helps you figure out exactly what your trying to do with which part of your code.)
+3. Make one change at a time
+4. Test your code;
+   -unit test(you test the functional blocks of your code)
+   -intergration test(test interaction between the functional code)
+   -test with valid and invalid data.
+5. Defensive programming: by adding error checking code and throwing exception
+6. Prioritising which feature can be ommitted
+7. Incubating
+8. Brainstorm
+
+DEBUGGING TOOLS
+* Break point;
+  these help you to see which type of code is carrying the bug.
+  the print statement is also a friend since it helps out.
+assignment find other debugging tools and how I applied them.
+   
